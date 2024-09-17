@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.container {
+  padding: 30px;
+  width: 1247px;
+  margin: 0 auto;
+}
+
+.header__logo__text {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu__items {
+  width: 684px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu__item {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  margin-left: 90px;
+}
+
+.header__menu__item:hover {
+  color: #ff6060;
+}
+
+.header__burger__menu__img {
+  cursor: pointer;
+}
+
+.header__burger__menu__img {
+  margin-left: 80px;
+}
+
+.header__menu__lan {
+  max-width: 80px;
+  justify-content: end;
+}
+
+.container {
+  padding: 30px;
+  width: 1000px;
+  max-width: 0 auto;
+}
+
+.hero__content {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__discription {
+  align-items: center;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 19, 5px;
+  color: #000;
+}
+
+.hero__title {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 400px;
+  color: #ff6060;
+  align-items: center;
+  text-align: center;
+}
